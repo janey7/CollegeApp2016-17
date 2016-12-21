@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Firstname"
+        android:ems="10"
+        android:id="@+id/firstname"
+        android:layout_weight="0.01"
+        android:capitalize="words"
+        android:hint="Firstname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Lastname"
+        android:ems="10"
+        android:id="@+id/lastname"
+        android:layout_weight="0.01"
+        android:capitalize="words"
+        android:hint="Lastname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Relationship"
+        android:ems="10"
+        android:id="@+id/relationship"
+        android:layout_weight="0.01"
+        android:capitalize="words"
+        android:hint="Relationship" />
+</LinearLayout>

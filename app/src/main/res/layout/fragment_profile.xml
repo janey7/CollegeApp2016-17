@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Firstname"
+        android:ems="10"
+        android:layout_weight="0.1"
+        android:id="@+id/firstname"
+        android:capitalize="words"
+        android:hint="Firstname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Lastname"
+        android:ems="10"
+        android:id="@+id/lastname"
+        android:layout_weight="0.1"
+        android:capitalize="words"
+        android:hint="Lastname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/birthday"
+        android:layout_weight="0.1"
+        android:text="Birthday"
+        android:hint="Birthday" />
+
+    <DatePicker
+        android:layout_width="231dp"
+        android:layout_height="208dp"
+        android:id="@+id/datePicker"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="bottom|top" />
+
+</LinearLayout>
